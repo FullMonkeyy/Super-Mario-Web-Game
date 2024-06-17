@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+    <link rel="stylesheet" href="CSS.css">
+
+    </head>
+
+    <body>
+        <button id="Esci" onclick="PopUpOpen()">Esci</button>
+        <img src="assets/Logo.png" id="logo" >
+
+        <div id="Selection">
+            <div id="lv0" class="lv" onclick="LoadGame(0);playmusic()"><span>LIVELLO 0</span></div>
+            <div id="lv1" class="lv" onclick="LoadGame(1);playmusic()"><span>LIVELLO 1</span></div>
+            <div id="lv2" class="lv" onclick="LoadGame(2);playmusic()"><span>LIVELLO 2</span></div>
+        </div>
+
+        <div id="giocatore" class="vitcon"><div id="testo"></div></div>
+        <div id="finestra" class="vitcon">
+            
+            <div id="vita" class="vitcon">
+
+                <img  id="cuori" width=100% height=100% src="assets/Hearth/1.png">
+
+            </div>
+            <div id="coinss" class="vitcon">
+                <div id="punteggio">0</div>
+                <img  id="monete" src="assets\Coins\row-1-column-1.png">
+            </div>
+
+            <span style="position: relative;clear:left; z-index:100;">
+            <canvas></canvas>
+            </span>
+            <span id="ground" style="position: relatvie; z-index:1;left:0px;">
+                <img  src="assets/ground.png">
+                <img  src="assets/ground.png">
+                <img  src="assets/ground.png"> 
+                <img  src="assets/ground.png">
+            </span>
+            <span id="background" style="position: relative;z-index:1;top:-260px;left:0px;display: flex;">
+                <img  width=1500px src="assets/Background.png">
+                <img  width=1500px src="assets/Background.png">
+                <img  width=1500px src="assets/Background.png">
+            </span>
+            <span id="sky" style="position: relative;z-index:1;top:-570px;left:0px;display: flex;">
+                <img id="sky1"  width=1500px src="assets/sky.png">
+                <img id="sky2"  width=1500px src="assets/sky.png">
+       
+            </span>
+        </div>
+        <div id="sound"></div>
+        <div id="popup" style="display: none;"><div id="innerPop">Sei sicuro di voler uscire?<br><br><button id="esco" onclick="Esci()">Log Out</button><button id="selLvl" onclick="location.reload()">Livelli</button><button id="nonesco" onclick="PopUpClose()">Annulla</button></div></div>
+        <div id="gameover" style="display: none;"><div id="innerPop">GAME OVER :C<br><button id="esco" onclick="Esci()">Log Out</button><button id="nonesco" onclick="location.reload()">Livelli</button></div></div>
+        <div id="vinto" style="display: none;"><div id="innerPop">HAI VINTO!!<br><button id="esco" onclick="Esci()">Log Out</button><button id="nonesco" onclick="location.reload()">Livelli</button></div></div>
+        <script src="Classes.js"></script>
+        <script src="LoadLevel.js"></script>
+        <script src="Level2.js"></script>
+        <script src="GameManagment.js"></script>
+        
+    </body>
+
+
+</html>

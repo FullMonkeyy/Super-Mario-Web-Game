@@ -1,0 +1,259 @@
+body{
+
+    background-image:url("assets/mainback2.png");
+    background-repeat: repeat;
+
+
+}
+#ac{
+
+    width:130px;
+    border-radius:20px;
+    height:50px;
+    font-size: 30pt;
+    font-family:Arial;
+    position:relative;
+    clear:left;
+    background-color: white;
+    top:8%;
+    left:7%;
+    text-align: center;
+    border:black 2px solid;
+    box-shadow:5px 5px 5px black;
+
+}
+#finestra{
+
+
+    width:1500px;
+    height:900px;
+    border:black 10px solid;
+    background-image:url("assets/MainBackGroudn.jpg");
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    border-radius: 25px;
+
+
+}
+#log{
+
+    position:relative;
+    z-index:1;
+    background-image:url("assets/log3.jpg");
+    background-size: cover;
+}
+#sig{
+
+    background-image:url("assets/download.jpeg");
+    background-size: cover;
+}
+
+#log,#sig{
+
+
+    background-color: white;
+    border:solid 4px black;
+    border-radius: 30px;
+    width:500px;
+    height:500px;
+    margin-top:200px;
+    margin-left: 200px;
+    box-shadow:10px 5px 5px black;
+
+
+}
+#sig{
+
+
+    margin:auto;
+
+}
+#credenziali2{
+
+    margin-left:40px;
+    margin-top:-180px;
+    width:177px;
+    height:100px;
+
+}
+#credenziali1{
+
+    margin-left:40px;
+    margin-top:45px;
+    width:177px;
+    height:100px;
+
+}
+
+#regi{
+
+    background-color: rgb(60, 193, 60);
+    text-decoration-color: white;
+    width:325px;
+    height:100px;
+    position:relative;
+    top:15%;
+    margin:auto;
+    border-radius: 25px;
+    box-shadow:5px 5px 5px black;
+    border:black 2px solid
+
+}
+#indietro{
+
+    position:relative;
+    top:45%;
+    left:53%;
+    border-radius: 25px;
+    width:150px;
+    height:50px;
+    box-shadow:5px 5px 5px black;
+
+}
+#rd{
+
+    position:relative;
+    top:20px;
+    left:10px;
+    font-size: 20pt;
+    font-family: "Open Sans", sans-serif;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Creden{
+
+    border-radius: 10px;
+    height: 30px;
+    width:200px;
+    margin-top:3px;
+    margin-bottom: 6px;
+    box-shadow:5px 5px 5px black;
+
+}
+
+#ControlloeAvvia{
+
+    border-radius: 10px;
+    width:150px;
+    font-size:20pt;
+    height:50px;
+    position:relative;
+    top:50px;
+    box-shadow:5px 5px 5px black;
+    
+    
+}
+a{
+
+    background-color: lightblue;
+
+}
+label{
+
+    font-size:20px;
+    font-family:Arial;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+}
+#btsingup{
+
+    position:relative;
+    left: 240px;
+    top:30px;
+    width:190px;
+    height:50px;
+    font-size:20pt;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px black;
+
+
+}
+img{
+
+    width:200px;
+    position:relative;
+    left:250px;
+
+}
+button:hover{
+
+    filter:brightness(70%);
+
+}
+button{
+
+    transition: filter 0.3s;
+
+}
+#storico{
+
+    position:relative;
+    z-index:0;
+    top:200px;
+    left:9%;
+    width:300px;
+    height:500px;
+    border-radius: 20px;
+    border: black 2px solid;
+    background-image:url("assets/log.png"); 
+    box-shadow:5px 5px 5px black;
+
+
+}
+#etichettastorico{
+
+    width:200px;
+    height: 30px;
+    border-radius: 20px;
+    border: black solid 2px;
+    margin:auto;
+    margin-top:5%;
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+    font-size: 20pt;
+    background-color: white;
+    box-shadow:5px 5px 5px black;    
+    
+
+}
+#contentstorico{
+
+    width:250px;
+    height: 400px;
+    border-radius: 20px;
+    border: black solid 2px;
+    margin:auto;
+    margin-top:8%;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    box-shadow:5px 5px 5px black;
+    font-size: 18pt;
+    font-family:"Open Sans", sans-serif;
+    text-align:center;
+    background-image: url(assets/woods2.png);
+    background-size: cover;
+    overflow: hidden;
+    transition: height 1s ;
+    
+}
+#contentstorico:hover{
+
+    height:600px;
+    transition: height 1s ;
+   
+}
+#mr{
+
+    position:relative;
+    margin-left:30px;
+    margin-top:20px;
+    transform: scale(70%);
+    z-index:0;
+    
+
+}
