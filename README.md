@@ -14,7 +14,7 @@ In the end choose your level and just play!
 
 ![Screenshot 2024-06-17 125433](https://github.com/FullMonkeyy/Super-Mario-Web-Game/assets/144152021/01a0936c-f6d9-4141-bd88-89a148b3a1d9)
 
-By the way, the level 0 and 1 are not native of my project. As matter of fact those levels are fetched from apis created by my web network professor. I just received the name of the element and its posion then I have to display in the game. 
+By the way, the level 0 and 1 are not native of my project. As matter of fact those levels are fetched from apis created by my web network professor. I just received the name of the element and its posion then I have to display in the game. Since my professor manages level 0 and 1 apis I can't ensure that apis still work :(  -> Anyway the level 2 is completely fine
 Only the third one is developed by me.
 
 Have fun!
